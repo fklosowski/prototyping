@@ -1,0 +1,91 @@
+/app
+##########################
+
+- User name is visible.
+- User's first and last name should match the first and last name of the logged-in user.
+
+- The left menu panel contains the following items: Dashboard, Applications, Profile & Settings, User Guide.
+- The Dashboard item is highlighted in the left panel.
+
+- The header with the logo is visible.
+- The header contains notification and logout buttons.
+
+- The Dashboard page has a header displaying "DASHBOARD".
+
+
+/app/applications
+##########################
+
+- User name is visible.
+- User's first and last name should match the first and last name of the logged-in user.
+
+- The left menu panel contains the following items: Dashboard, Applications, Profile & Settings, User Guide.
+- The Applications item is highlighted in the left panel.
+
+- The header with the logo is visible.
+- The header contains notification and logout buttons.
+- These buttons display tooltips when hovered over.
+
+- The Applications page has a header displaying "APPLICATIONS".
+- The Applications page has an "Add new application" button.
+
+- The search section is visible.
+- The search section has 5 search customization fields and a Reset button.
+- Among those, there are two dropdown lists with specific items.
+- Among those, there are two date fields.
+
+- The Applications section has tabs for DRAFTS, IN PROGRESS, PENDING, and CLOSED.
+- The Applications DRAFTS tab has columns for Application #, Status, Creation Date, Project Address, SSL, and Permit(s).
+- The Applications IN PROGRESS tab has columns for Application #, Review Status, Reviewer, Submission Date, Project Address, SSL, and Permit(s).
+- The Applications PENDING tab has columns for Application #, Review Status, Reviewer, Submission Date, Project Address, SSL, and Permit(s).
+- The Applications CLOSED tab has columns for Application #, Application Status, Completion Date, Project Address, SSL, and Permit(s).
+
+
+/app/profile
+##########################
+
+- User name is visible.
+- User's first and last name should match the first and last name of the logged-in user.
+
+- The left menu panel contains the following items: Dashboard, Applications, Profile & Settings, User Guide.
+- The Profile & Settings item is highlighted in the left panel.
+
+- The header with the logo is visible.
+- The header contains notification and logout buttons.
+
+- The Profile & Settings page has a header section displaying the user's first and last name, email address, and phone number.
+- The Profile & Settings page has a personal info section with a header titled "Personal Information" and additional items inside.
+- The Profile & Settings page has a status section with a header titled "Status" and a "Deactivate Account" button.
+
+- The Profile & Settings page has a "Delete my account" button at the bottom.
+
+
+/app/applications/create-new
+##########################
+
+This page is the first step of the Wall Check authorization process called "Permit."
+
+- The user name is visible.
+- The user's first and last name should match the first and last name of the logged-in user.
+
+- The left menu panel contains the following items: Dashboard, Applications, Profile & Settings, User Guide.
+- No item is highlighted in the left panel.
+
+- The header with the logo is visible.
+- The header contains notification and logout buttons.
+
+- This page has a header section displaying the title "Authorization Form for Wall Check."
+- The page includes a chevron screen-flow with 3 steps: Permits, Authorization Form, Payment.
+
+- The page has a section titled "Application Type."
+- The "Application Type" section contains a pane titled "Number of Lots."
+- The "Number of Lots" pane includes two radio buttons with labels: "Single Lot Application" and "Multi-Lot Application."
+
+- The page has a section titled "Building Permits."
+- This section includes a panel with text fields labeled as "Building Permit" and a "Validate" button.
+- On succesfull validation, this pane extends and displays "RESULTS" section with "Building Permit Card" card and the background of this card is gray.
+- On unscuccesfull validatation, this pane extends and displays "RESULT" section with warning "The following permit(s) was not found. If you're sure you entered the correct permit numbers, please reach out to DOB for further assistance at link. You can also create a project without this permit."
+
+
+- At the bottom of the page, there is a "Continue" button.
+- This button can be inactive or active.
